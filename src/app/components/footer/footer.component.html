@@ -1,4 +1,4 @@
-<footer class="ae-container-fluid rk-footer custom-footer">
+<footer class="ae-container-fluid rk-footer">
   <div class="ae-grid ae-grid--collapse">
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
       <p class="rk-footer__text rk-footer__copy">
@@ -13,31 +13,25 @@
         [href]="infoService.info.facebook"
         class="rk-social-btn"
       >
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-facebook"></use></svg></a
+        <fa-icon [icon]="faFacebookF" class="social-icon"></fa-icon></a
       ><a
         target="_blank"
         [href]="infoService.info.twitter"
         class="rk-social-btn"
       >
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-twitter"></use></svg></a
+        <fa-icon [icon]="faTwitter" class="social-icon"></fa-icon></a
       ><a
         target="_blank"
         [href]="infoService.info.instagram"
         class="rk-social-btn"
       >
-        <svg>
-          <use
-            xlink:href="assets/img/symbols.svg#icon-pinterest"
-          ></use></svg></a
+        <fa-icon [icon]="faInstagram" class="social-icon"></fa-icon></a
       ><a
         target="_blank"
-        [href]="infoService.info.tumblr"
+        [href]="infoService.info.linkedIn"
         class="rk-social-btn"
       >
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use></svg
+        <fa-icon [icon]="faLinkedin" class="social-icon"></fa-icon
       ></a>
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">

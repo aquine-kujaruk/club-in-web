@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoService } from '../../services/info.service';
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +14,11 @@ import { InfoService } from '../../services/info.service';
 })
 export class FooterComponent implements OnInit {
   anio: number = new Date().getFullYear();
+  faFacebookF = faFacebookF;
+  faTwitter = faTwitter;
+  faInstagram = faInstagram;
+  faLinkedin = faLinkedin;
+
   constructor(public infoService: InfoService) {}
 
   ngOnInit(): void {}
