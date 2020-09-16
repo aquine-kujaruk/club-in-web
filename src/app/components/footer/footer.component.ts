@@ -11,4 +11,8 @@ export class FooterComponent implements OnInit {
   constructor(public infoService: InfoService) {}
 
   ngOnInit(): void {}
+
+  mailto() {
+    return `mailto:${this.infoService.info.email}`;
+  }
 }

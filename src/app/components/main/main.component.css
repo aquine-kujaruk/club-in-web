@@ -1,21 +1,20 @@
-.pic {
-  width: 300px;
-  height: 300px;
-}
 .text {
   text-align: center;
-  padding: 60px;
-  margin-left: 10px;
-  margin-right: 25px;
 }
-.buton {
-  background-color: #ffffff;
-
-  margin-left: 250px;
-  width: 100px;
-  height: 50px;
+.text > h6 {
+  color: #787878;
 }
-.imag {
-  width: 100px;
-  height: 40px;
+.button-row {
+  padding-left: calc(50% - 100px);
+  height: 60px;
+}
+.button {
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  border: none;
+}
+.button-image {
+  height: 60px;
+  width: auto;
 }

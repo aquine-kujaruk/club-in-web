@@ -1,21 +1,16 @@
-<section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+<section class="ae-container custom-section">
   <div class="ae-grid">
-    <div class="pic">
-      <img src="assets/img/repair.png" alt="" />
-      <div class="item-meta">
-        <h2>Página en Mantenimiento</h2>
-        <p>Maintenance page</p>
+    <div class="ae-grid__item item-xs-12">
+      <div class="text">
+        <h5>Actualmente nuestra página web se encuentra en mantenimiento.</h5>
+        <h6>Descarga nuestra App en Play Store</h6>
       </div>
     </div>
-    <div class="text">
-      <h5>Actualmente nuestra página web se encuentra en mantenimiento.</h5>
-
-      <h6>Descarga nuestra App en Play Store</h6>
-      <div class="ae-grid__item item-lg-4 au-xs-ta-center">
-        <button (click)="onClick()" class="buton">
-          <img class="imag" src="assets/img/play.png" alt="x" />
-        </button>
-      </div>
+    <div class="ae-grid__item item-xs-12 button-row">
+      <button (click)="onClick()" class="button">
+        <img class="button-image" src="assets/img/play.png" alt="x" />
+      </button>
     </div>
   </div>
+  <app-footer style="width: 100%"></app-footer>
 </section>
