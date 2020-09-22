@@ -11,6 +11,6 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {}
   onClick() {
-    window.open('https://play.google.com/store?hl=es');
+    window.open('https://play.google.com/store/apps/details?id=com.gts.clubin');
   }
 }
